@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Instagram Profile Picture</title>
+        <link rel = "icon" href ="{{ url_for('static', filename='images/logo.png') }}" type = "image/x-icon"> 
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+        <ul class="topnav">
+            {% block navbar %}
+            {% endblock %}
+        </ul>
+        <h1>{% block heading %}{% endblock %}</h1>
+    </head>
+    <body>
+        {% block body %}{% endblock %}
+    </body>
+    <footer>
+        <p id='footer'>Copyright &hearts; Debdut Goswami</p>
+    </footer>
+</html>

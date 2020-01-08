@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block navbar %}
+<li><a class="active" href="/">Home</a></li>
+<li><a href="howtouse">How to use</a></li>
+<li><a class="right"  href="about">About</a></li>
+{% endblock %}
+
+{% block heading %}
+Instagram Profile Picture
+{% endblock %}
+
+{% block body %}
+<form method="POST" action="/">
+    <input type="text" name="username" placeholder="Username" required>
+    <input class="btn btn-primary" type="submit" value="Submit">
+</form>
+{% endblock %}
