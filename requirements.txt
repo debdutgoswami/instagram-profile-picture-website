@@ -3,7 +3,7 @@
 
 #### ESSENTIAL LIBRARIES FOR MAIN FUNCTIONALITY ####
 
-Flask==1.1.1
+Flask==2.3.2
 bs4==0.0.1
 Pillow==8.3.2
 gunicorn==20.0.4
